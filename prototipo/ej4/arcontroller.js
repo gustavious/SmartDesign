@@ -38,13 +38,13 @@ window.addEventListener('load', function() {
               rotation: {x: 90, z: 45},
               material: {
                 type: 'phong',
-                color: 0x000000
+                color: 0x996633
               }
             }, {poi_id: 'marker'});
 
             awe.projections.add({
               id: 'ar_button_one',
-              geometry: {shape: 'cube', x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube', x: 100, y: 100, z: 100},
               rotation: {y: 45},
               position: {x: -5, y: -31, z: -5},
               material: {
@@ -55,9 +55,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_two',
-              geometry: {shape: 'cube',x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube',x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: 200, y: -31, z: -200},
               material: {
                 type: 'phong',
                 color: 0xFF6600
@@ -66,9 +66,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_three',
-              geometry: {shape: 'cube', x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube', x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: -200, y: -31, z: 200},
               material: {
                 type: 'phong',
                 color: 0xFFFF00
@@ -77,9 +77,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_four',
-              geometry: {shape: 'cube', x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube', x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: 200, y: -100, z: 200},
               material: {
                 type: 'phong',
                 color: 0xFFFFFF
@@ -88,9 +88,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_five',
-              geometry: {shape: 'cube',x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube',x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: -200, y: -100, z: -200},
               material: {
                 type: 'phong',
                 color: 0x00FF00
@@ -99,9 +99,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_six',
-              geometry: {shape: 'cube', x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube', x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: -1000, y: -1000, z: -1000},
               material: {
                 type: 'phong',
                 color: 0x0080FF
@@ -110,9 +110,9 @@ window.addEventListener('load', function() {
 
             awe.projections.add({
               id: 'ar_button_seven',
-              geometry: {shape: 'cube', x: 100, y: 40, z: 100},
+              geometry: {shape: 'cube', x: 100, y: 100, z: 100},
               rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
+              position: {x: -1000, y: -1000, z: -1000},
               material: {
                 type: 'phong',
                 color: 0x8000FF
